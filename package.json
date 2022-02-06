@@ -1,0 +1,23 @@
+{
+  "name": "my-first-discord-js-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Imbored24/My-First-Discord-JS-Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Imbored24/My-First-Discord-JS-Bot/issues"
+  },
+  "homepage": "https://github.com/Imbored24/My-First-Discord-JS-Bot#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0"
+  }
+}

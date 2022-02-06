@@ -1,3 +1,5 @@
+const mongoose = require('mongoose');
+const { mongo } = require('../../config.json');
 module.exports = {
 	name: "ready",
 	once: true,
@@ -11,5 +13,15 @@ module.exports = {
 		{
 			client.user.setActivity(`Over ${client.guilds.cache.size} servers`, {type: "WATCHING"});
 		}
+
+		if(!mongo) return console.log('There is no mongo token in the config file! Please add this for all database features.');
+		mongoose.connect(mongo, {
+			useNewUrlParser: true,
+			useUnifiedTopology: true,
+		}).then(() => {
+			console.log("The client is now connected to the database!");
+		}).catch((err) => {
+			console.log(`There has been an error trying to connect to the database!\n${err}`)
+		});
 	}
 }

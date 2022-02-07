@@ -1,9 +1,4 @@
 # Discord-jsbot - Discord Bot 🤖
-
-Discord-jsbot is an open source discord bot written in nextcord. Later the bot will have many features like moderation! But remember this bot is only a Work In Progress so there will be some bugs that will need to be fixed. ⚠
-
-## Configuration
-
 ### Default configuration
 
 ```json

@@ -1,0 +1,5 @@
+{
+    "token": "token from discord.com/developers",
+    "prefix": "!",
+    "mongo": "mongourl from mongoatlas"
+}

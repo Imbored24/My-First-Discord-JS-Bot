@@ -1,5 +1,6 @@
 const discord = require('discord.js');
-const client = new discord.Client();
+// Tick all intents in discord.com/developers
+const client = new discord.Client({ intents: 32767 });
 const { token } = require('./config.json');
 
 client.once('ready', () => {

@@ -27,6 +27,6 @@ The configuration will be updated to have more things to select from! 😉
 4. In the configuration file select the prefix that is not used with other bots in the `"prefix": ""` part.
 
 
-That's it! You just need to run the bot.py file and you are now running Discord-jsbot! 🎉🎉🎉
+That's it! You just need to run the bot.js file and you are now running Discord-jsbot! 🎉🎉🎉
 
 [DiscordDeveloperPortal]: https://discord.com/developers/applications

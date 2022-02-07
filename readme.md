@@ -26,6 +26,8 @@ The configuration will be updated to have more things to select from! 😉
  
 4. In the configuration file select the prefix that is not used with other bots in the `"prefix": ""` part.
 
+5. run `npm i` to install all packages.
+
 
 That's it! You just need to run the bot.js file and you are now running Discord-jsbot! 🎉🎉🎉
 

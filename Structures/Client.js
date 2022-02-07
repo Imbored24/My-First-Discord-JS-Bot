@@ -23,7 +23,7 @@ module.exports = class MenuDocsClient extends Client {
             console.log(`Logged in as ${this.user.username}!`);
         });
 
-        this.on('message', async (message) => {
+        this.on('messageCreate', async (message) => {
             const mentionRegex = RegExp(`^<@!${this.user.id}>$`);
             const mentionRegexPrefix = RegExp(`^<@!${this.user.id}> `);
 
